@@ -1,7 +1,8 @@
 import "../../categories.styles.scss";
 // import CategoryItem from "./components/category-item/category-item/category-item.component";
 // import CategoryMenu from "./components/category-item/categories-menu/categories-menu.components";
-import CategoryMenu from "../../components/category-item/categories-menu/categories-menu.components";
+// import Di from "../../components/category-item/categories-menu/categories-menu.components";
+import Directory from "../../components/directory/directory.component";
 
 const Home = () => {
   const categories = [
@@ -32,7 +33,7 @@ const Home = () => {
     },
   ];
 
-  return <CategoryMenu categories={categories} />;
+  return <Directory categories={categories} />;
 };
 
 export default Home;

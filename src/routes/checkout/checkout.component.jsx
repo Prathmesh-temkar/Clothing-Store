@@ -7,7 +7,7 @@ const Checkout = () => {
   const { cartItems, total } = useContext(CartContext);
 
   return (
-    <div className="checkout-container">
+     <div className="checkout-container">
       <div className="checkout-header">
         <div className="header-block">
           <span>Product</span>
